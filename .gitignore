@@ -1,0 +1,14 @@
+# Features y modelos — demasiado grandes
+features/
+models/
+*.pt
+*.pkl
+
+# Dataset
+RDD2022/
+RDD2022_clean/
+
+# Python
+__pycache__/
+*.pyc
+.env
