@@ -13,25 +13,6 @@ pip install scikit-learn lightgbm scipy shap matplotlib nbformat
 
 ---
 
-## Estructura del proyecto
-
-```
-├── clean_rdd2022.py                  # Limpieza del dataset
-├── extract_features.py               # Extracción de features con DINO
-├── train_MLP.py                 # Entrenamiento MLP
-├── train_SVM_LightGBM.py              # Entrenamiento SVM y LightGBM
-├── finetune_dinov2.py                # Fine-tuning clasificación DINOv2
-├── finetune_dinov2_detection.py      # Fine-tuning detección DINOv2
-├── evaluate_finetuned.py             # Evaluación modelo fine-tuneado
-├── attention_rollout_fine_tunning.py # Attention Rollout
-├── patch_importance.py               # Patch Importance SHAP
-├── análisis_dataset.ipynb            # Análisis de viabilidad del split
-├── dinov1_experiment_comparison.ipynb        # Comparativa experimentos DINOv1
-├── dino_comparison_with_timing.ipynb         # Comparativa extractores + tiempos
-├── svm_lgbm_4dinos_comparison.ipynb          # Comparativa SVM y LightGBM
-```
-
----
 
 ## 1. Limpieza del dataset
 
